@@ -4,12 +4,9 @@ body{
 
 
 .starterBildet {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 300px;
-
-
+    display: block;
+    margin-inline: auto;
+    height: 300px;
 }
 
 .bildet{
