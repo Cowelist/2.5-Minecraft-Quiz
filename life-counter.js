@@ -1,15 +1,17 @@
-const mainTitle = localStorage.getItem('life-counter');
-let curValue = 3;
+let life = localStorage.getItem("life")
 
-let decrease = localStorage.getItem ("test");
-const reset = localStorage.getItem ("point");
+const knapp = document.getElementById("lose")
 
-test.addEventListener('click', () => {
-  curValue--;
-  mainTitle.textContent = curValue;
-});
+knapp.addEventListener("click",function(){
+  life -=1
+ 
+  if (life == 0){
+    window.location.href="lose.html"
 
-reset.addEventListener('click', () => {
-  curValue = 3;
-  mainTitle.textContent = curValue;
-});
+
+  }
+  else
+
+
+
+  })
