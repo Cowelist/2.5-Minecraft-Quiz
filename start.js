@@ -1,2 +1,1 @@
-localStorage.setItem("",false)
-localStorage.setItem()
+localStorage.setItem("life",3)
